@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath also cocks
-
+#AlsoKoks2tits
 
 import smtplib as s
 import getpass as g
