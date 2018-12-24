@@ -39,8 +39,8 @@ if pro_opt == "1":
 		#attack_pro = 'hotmail'
 		username = input('Email Username:')
 		password = g.getpass('Password:')
-		server = s.SMTP_SSL('smtp.hotmail.com',587)
-		#server.starttls()
+		server = s.SMTP('smtp.hotmail.com',587)
+		server.starttls()
 		server.login(username, password)
 	
 	print( """ What would you like to do?
