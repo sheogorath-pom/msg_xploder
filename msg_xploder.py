@@ -53,22 +53,22 @@ if pro_opt == "1":
 	if option == "1":
 		carrier_attack = 0
 		print( """ What is their carrier?
-		1. Verizon
-		2. Straight Talk
-		3. AT&T
-		4. AT&T Mobility (formerly Cingular)
-		5. Sprint (PCS)
-		6. Sprint (Nextel)
-		7. T-Mobile
-		8. Telus
-		9. Alltel
-		10. Virgin Mobile
-		11. Orange
-		12. Boost Mobile
-		13. Cricket
-		14. Metro PCS
-		15. U.S. Cellular
-		\n\r
+1. Verizon
+2. Straight Talk
+3. AT&T
+4. AT&T Mobility (formerly Cingular)
+5. Sprint (PCS)
+6. Sprint (Nextel)
+7. T-Mobile
+8. Telus
+9. Alltel
+10. Virgin Mobile
+11. Orange
+12. Boost Mobile
+13. Cricket
+14. Metro PCS
+15. U.S. Cellular
+\n\r
 		""")
 		carrier = input()
 
