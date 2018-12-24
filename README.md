@@ -7,7 +7,7 @@ Added a menu to choose a different provider than Gmail<br>
 Added ability to add more email providers, mimics phone carrier menu w/smtp or OAuth specific login protocols.<br>
 <br>
 Requires:<br> 
-  Python3
+  Python3<br>
 <br>
 Usage:<br>
   sudo git clone https://github.com/sheogorath-pom/msg_xploder.git<br>
