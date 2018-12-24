@@ -15,11 +15,11 @@ pro_opt = input()
 print("\n\r")
 if pro_opt == "1":
 	#attack_pro = 0
-	print(""" What is your email provider?
-		1. Gmail
-		2. Yahoo!
-		3. Hotmail
-	""")
+print(""" What is your email provider?
+        1. Gmail
+        2. Yahoo!
+        3. Hotmail
+        """)
 	pro_option = input()
 	if pro_option == "1":
 		#attack_pro = 'gmail'
@@ -42,7 +42,7 @@ if pro_opt == "1":
 		server = s.SMTP('smtp-mail.outlook.com',587)
 		server.starttls()
 		server.login(username, password)
-	
+
 	print( """ What would you like to do?
 
 		1. Text Bomb
@@ -121,3 +121,5 @@ if pro_opt == "1":
 			print("Bombing... Press Ctrl + C To Stop")
 if pro_opt == "2":
 	print(quit())
+
+    #testing repo
