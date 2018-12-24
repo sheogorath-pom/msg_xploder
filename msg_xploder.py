@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# Name: MaxBomber.py
-# Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath
+# Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath
 
 
 import smtplib as s
