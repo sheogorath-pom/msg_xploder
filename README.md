@@ -18,7 +18,8 @@ Hotmail:<br>
 Usage:<br>
 <br>
   Linux:<br>
-    sudo git clone https://github.com/sheogorath-pom/msg_xploder.git<br>
+    git clone https://github.com/sheogorath-pom/msg_xploder.git<br>
+    cd msg_xploder<br>
     sudo chmod +x msg_xploder.py<br>
     ./msg_xploder.py<br>
   <br>
