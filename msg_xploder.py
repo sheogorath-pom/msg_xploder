@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath
+# Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath also cocks
 
 
 import smtplib as s
