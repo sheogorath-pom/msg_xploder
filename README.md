@@ -9,6 +9,12 @@ Added ability to add more email providers, mimics phone carrier menu w/smtp or O
 Requires:<br> 
   Python3<br>
 <br>
+Email provider help:<br>
+<br>
+Gmail:<br>
+Yahoo!: Make sure to allow insecure apps to login, in the account security settings from the yahoo mail website<br>
+Hotmail:<br>
+<br>
 Usage:<br>
 <br>
   Linux:<br>
