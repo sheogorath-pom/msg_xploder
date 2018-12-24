@@ -11,8 +11,8 @@ Requires:<br>
 <br>
 Email provider help:<br>
 <br>
-Gmail:<br>
-Yahoo!: Make sure to allow insecure apps to login, in the account security settings from the yahoo mail website<br>
+Gmail:Make sure to allow insecure apps to login, in the account security settings from the Gmail website<br>
+Yahoo: Make sure to allow insecure apps to login, in the account security settings from the Yahoo mail website<br>
 Hotmail:<br>
 <br>
 Usage:<br>
