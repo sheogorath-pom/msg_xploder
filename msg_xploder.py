@@ -6,7 +6,7 @@ import smtplib as s
 import getpass as g
 import sys
 
-print(""" Ready to fuck shit up?
+print("""You ready to fuck shit up?
 
 1. Hell ya!
 2. Wait, I'm not ready
@@ -15,7 +15,7 @@ pro_opt = input()
 print("\n\r")
 if pro_opt == "1":
 #attack_pro = 0
-	print(""" What is your email provider?
+	print("""What is your email provider?
 1. Gmail
 2. Yahoo!
 3. Hotmail
@@ -43,16 +43,16 @@ if pro_opt == "1":
 		server.starttls()
 		server.login(username, password)
 
-	print( """ What would you like to do?
+	print( """What would you like to do?
 
-		1. Text Bomb
-		2. Email Bomb
+1. Text Bomb
+2. Email Bomb
 	""")
 	option = input()
 	print("\n\r")
 	if option == "1":
 		carrier_attack = 0
-		print( """ What is their carrier?
+		print( """What is their carrier?
 1. Verizon
 2. Straight Talk
 3. AT&T
