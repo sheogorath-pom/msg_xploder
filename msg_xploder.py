@@ -53,37 +53,55 @@ if pro_opt == "1":
 	if option == "1":
 		carrier_attack = 0
 		print( """ What is their carrier?
-		1. Alltel
-		2. AT&T
-		3. Rogers
-		4. Sprint
-		5. T-Mobile
-		6. Telus
-		7. Verizon
-		8. Virgin Mobile
-		9. Orange
+		1. Verizon
+		2. Straight Talk
+		3. AT&T
+		4. AT&T Mobility (formerly Cingular)
+		5. Sprint (PCS)
+		6. Sprint (Nextel)
+		7. T-Mobile
+		8. Telus
+		9. Alltel
+		10. Virgin Mobile
+		11. Orange
+		12. Boost Mobile
+		13. Cricket
+		14. Metro PCS
+		15. U.S. Cellular
 		\n\r
 		""")
 		carrier = input()
 
 		if carrier == "1":
-			carrier_attack = "alltelmessage.com"
-		if carrier == "2":
-			carrier_attack = "@txt.att.net"
-		if carrier == "3":
-			carrier_attack = "@pcs.rogers.com"
-		if carrier == "4":
-			carrier_attack = "@messaging.sprintpcs.com"
-		if carrier == "5":
-			carrier_attack = "@tmomail.net"
-		if carrier == "6":
-			carrier_attack = "@msg.telus.com"
-		if carrier == "7":
 			carrier_attack = "@vtext.com"
+		if carrier == "2":
+			carrier_attack = "@vtext.com"
+		if carrier == "3":
+			carrier_attack = "@txt.att.net"
+		if carrier == "4":
+			carrier_attack = "@cingularme.com"
+		if carrier == "5":
+			carrier_attack = "@messaging.sprintpcs.com"
+		if carrier == "6":
+			carrier_attack = "@page.nextel.com"
+		if carrier == "7":
+			carrier_attack = "@tmomail.net"
 		if carrier == "8":
-			carrier_attack = "@vmobl.com"
+			carrier_attack = "@msg.telus.com"
 		if carrier == "9":
+			carrier_attack = "@text.wireless.alltel.com"
+		if carrier == "10":
+			carrier_attack = "@vmobl.com"
+		if carrier == "11":
 			carrier_attack = "@sms.orange.pl"
+		if carrier == "12":
+			carrier_attack = "@myboostmobile.com"
+		if carrier == "13":
+			carrier_attack = "@sms.mycricket.com"
+		if carrier == "14":
+			carrier_attack = "@mymetropcs.com"
+		if carrier == "15":
+			carrier_attack = "@email.uscc.net"
 
 		v_phone = input("Victim's Phone Number: ") + str(carrier_attack)
 		message = input("Message: ")
