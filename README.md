@@ -10,8 +10,10 @@ Requires:<br>
   Python3<br>
 <br>
 Usage:<br>
-  sudo git clone https://github.com/sheogorath-pom/msg_xploder.git<br>
-  sudo chmod +x msg_xploder.py<br>
-  ./msg_xploder.py<br>
+  Linux:<br>
+    sudo git clone https://github.com/sheogorath-pom/msg_xploder.git<br>
+    sudo chmod +x msg_xploder.py<br>
+    ./msg_xploder.py<br>
+  Windows:<br>
  <br>
 For educational use only, please don't destroy anything that doesn't belong to you.
