@@ -25,15 +25,15 @@ if pro_opt == "1":
 		#attack_pro = 'gmail'
 		username = input('Email Username:')
 		password = g.getpass('Password:')
-		server = s.SMTP_SSL('smtp.gmail.com',465)
-		#server.starttls()
+		server = s.SMTP('smtp.gmail.com',587)
+		server.starttls()
 		server.login(username, password)
 	if pro_option == "2":
 		#attack_pro = 'yahoo'
 		username = input('Email Username:')
 		password = g.getpass('Password:')
-		server = s.SMTP_SSL('smtp.mail.yahoo.com',587)
-		#server.starttls()
+		server = s.SMTP('smtp.mail.yahoo.com',587)
+		server.starttls()
 		server.login(username, password)
 	if pro_option == "3":
 		#attack_pro = 'hotmail'
