@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath also cocks
-#AlsoKoks2tits
+# Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath
 
 import smtplib as s
 import getpass as g
@@ -121,5 +120,3 @@ if pro_opt == "1":
 			print("Bombing... Press Ctrl + C To Stop")
 if pro_opt == "2":
 	print(quit())
-
-    #testing repo2
