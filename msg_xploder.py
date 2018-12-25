@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # Originally Coded By: Max00355 - Forked by ZodiacGlass & Sheogorath
 
 import smtplib as s
